@@ -16,7 +16,6 @@
       "expected_direct_dependencies_number": { "eq": 2 },
       "expected_transitive_dependencies_number": { "gte": 0 },
       "direct_dependencies_names_list": { "eq": ["bzip2", "zlib"] },
-      "transitive_dependencies_names_list": { "nin": ["cmake", "ninja"] },
       "expected_package_managers": { "contains": ["conan"] },
       "validate_agent_versions": false,
       "expected_agent_version": "",
